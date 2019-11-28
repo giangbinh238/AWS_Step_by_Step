@@ -9,8 +9,8 @@
 ## Step 3 : Internet Gateway
 - Create Internet Gateway and attach to the VPC 
 ## Step 5 :EC2 Instances
-Create 3 EC2 Instances : 
-- NAT Instance (in Public Subnet) : 
+Create 3 EC2 Instances
+NAT Instance (in Public Subnet)
   ...Using "amzn-ami-vpc-nat" for AMI 
   ...disable Change Source/Dest.Check (Actions > Networking > Change Source/Dest. Check > Yes, Disable)
   
