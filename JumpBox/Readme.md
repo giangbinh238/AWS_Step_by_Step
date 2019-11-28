@@ -35,6 +35,9 @@ Outbound Rule
 ![Image of NAT Instance](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture11.PNG)
 
 2.Jumpbox (in Public Subnet) : 
+
+Inbound rule
+
 ![Image of Jumpbox](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture9.PNG)
 
 3.Databases Instance (In Private Subnet):
