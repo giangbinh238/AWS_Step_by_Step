@@ -10,10 +10,15 @@
 - Create Internet Gateway and attach to the VPC 
 ## Step 5 :EC2 Instances
 Create 3 EC2 Instances : 
+- NAT Instance (in Public Subnet) : 
+  ...Using "amzn-ami-vpc-nat" for AMI 
+  ...disable Change Source/Dest.Check (Actions > Networking > Change Source/Dest. Check > Yes, Disable)
+  
+![Image of NAT Instance](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture11.PNG)
+
 - Jumpbox (in Public Subnet) : 
 ![Image of Jumpbox](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture9.PNG)
-- NAT Instance (in Public Subnet) :
-![Image of NAT Instance](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture11.PNG)
+
 - Databases Instance (In Private Subnet):
 ![Image of Databases Instance](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture10.PNG)
 
