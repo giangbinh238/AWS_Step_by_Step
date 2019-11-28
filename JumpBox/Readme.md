@@ -8,7 +8,7 @@
 ![Image of subnet](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture1.PNG)
 ## Step 3 : Internet Gateway
 - Create Internet Gateway and attach to the VPC 
-## Step 5 :EC2 Instances
+## Step 4 : EC2 Instances
 Create 3 EC2 Instances
 
 - NAT Instance (in Public Subnet)
