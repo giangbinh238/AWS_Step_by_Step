@@ -6,6 +6,16 @@
 - Subnet1_GeeBee (Public Subnet) : `10.10.1.0/24`
 - Subnet2_GeeBee (Private Subnet): `10.10.2.0/24`
 ![Image of subnet](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture1.PNG)
-  
+## Step 3 : Internet Gateway
+- Create Internet Gateway and attach to the VPC 
+## Step 5 :EC2 Instances
+Create 3 EC2 Instances : 
+- Jumpbox (in Public Subnet) : 
+![Image of Jumpbox](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture9.PNG)
+- NAT Instance (in Public Subnet) :
+![Image of NAT Instance](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture11.PNG)
+- Databases Instance (In Private Subnet):
+![Image of Databases Instance](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture10.PNG)
+
 ## Result
 ![Image of ConnecttoEC2](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/ConnectToEC2.PNG)
