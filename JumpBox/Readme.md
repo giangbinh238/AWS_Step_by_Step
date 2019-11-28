@@ -15,12 +15,15 @@ Create 3 EC2 Instances
 - Using "amzn-ami-vpc-nat" for AMI
 - Disable Change Source/Dest.Check (Actions > Networking > Change Source/Dest. Check > Yes, Disable).
 - Security Groupe : `NATSG` with the configuration 
+
 |Type     | Protocol  | Port Range  | Source |
 | ---------- |-----| -----|----------------------|
 |SSH    |TCP | 22 | 10.10.2.0/24 |
 |HTTP      | TCP | 80 | 10.10.2.0/24 |
 |HTTPS      | TCP | 443 | 10.10.2.0/24 |
 | ALL ICMP-IPv4	| All | N/A | 10.10.2.0/24 |
+
+
   
 ![Image of NAT Instance](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture11.PNG)
 
