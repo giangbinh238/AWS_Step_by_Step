@@ -30,7 +30,7 @@ Outbound Rule
 |Type     | Protocol  | Port Range  | Source |
 | ---------- |-----| -----|----------------------|
 |SSH    |TCP | 22 | 10.10.2.0/24 |
-| ALL ICMP-IPv4	| All | N/A | 10.10.2.0/24 |
+| ALL ICMP-IPv4	| All | N/A | 0.0.0.0/0 |
   
 ![Image of NAT Instance](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture11.PNG)
 
