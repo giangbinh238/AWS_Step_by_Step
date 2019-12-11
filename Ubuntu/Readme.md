@@ -10,4 +10,8 @@ Use this command
  
  `sudo apt install yum`
  
- `sudo apt-get install python3 `
+ `sudo apt-get install python3-pip`
+
+Make the jupyter remains always in the instance even we shut the computer terminal 
+
+` nohup jupyter notebook --ip=0.0.0.0 &`
