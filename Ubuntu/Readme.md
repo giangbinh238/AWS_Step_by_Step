@@ -31,6 +31,7 @@ Make the jupyter remains always in the instance even we shut the computer termin
 IF conda command can't run : 
 
 `export PATH=~/anaconda3/bin:$PATH`
+
 Then create new environment
 
 `conda activate <name>`
