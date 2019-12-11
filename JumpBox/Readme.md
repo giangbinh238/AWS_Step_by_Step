@@ -1,4 +1,17 @@
 # JumpBox
+
+JumpBox (also called Bastion)
+
+## Principle: 
+
+- Jumbox in **public** subnet
+- Final Instance in **private** subnet
+- **--> if JB is shut down - nobody can access EC2.**
+
+## Architecture:
+
+![Image of architecture](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Architecture_diagram.png)
+
 ## Step 1 : VPC
 - Created VPC : `10.10.0.0/16`
 ## Step 2 : Subnet
@@ -37,11 +50,13 @@ Outbound Rule
 2.Jumpbox (in Public Subnet) : 
 
 Inbound rule
+To IWG
 
 ![Image of Jumpbox](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture9.PNG)
 
 3.Databases Instance (In Private Subnet):
+To The Nat instance (or subnet)
 ![Image of Databases Instance](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/Capture10.PNG)
 
-## Result
+## Final Step : Result Ping to Google.com
 ![Image of ConnecttoEC2](https://github.com/giangbinh238/AWS_Step_by_Step/blob/master/JumpBox/Image/ConnectToEC2.PNG)
