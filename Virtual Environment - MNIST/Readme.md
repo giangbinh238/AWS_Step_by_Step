@@ -9,7 +9,7 @@ Use this command
 
 `sudo apt-get update` 
 
- `sudo apt-get install python3`
+ `sudo apt-get install python3-pip`
  
  `sudo apt install yum`
  
@@ -45,3 +45,24 @@ Need Keras and Tensorflow to execute program :
 `conda install keras`
 
 `conda install opencv`
+
+# Part 3 : Install web server 
+By using apache 
+
+Create new instance with SG :
+
+ SSH 0.0.0.0 and HTTP 0.0.0.0
+
+ Launch and use this code : 
+
+ `sudo apt-get update`
+
+ `sudo apt-get install apache2`
+
+ `sudo apt-get install git`
+
+ `git clone http:\\`
+
+ `sudo mvsudo mv AWS_Tutorials/MNIST/index.html /var/www/html`
+
+`sudo mv AWS_Tutorials/MNIST/static /var/www/html `
